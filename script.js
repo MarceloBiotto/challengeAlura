@@ -1,6 +1,6 @@
-document.getElementById('meuBotao').addEventListener('click', funcaoGeo);
+document.getElementById('meuBotao').addEventListener('click', funcaoTeste);
 
 
-function funcaoGeo(){
-    document.getElementById('meuBotao').innerHTML = 'Geovane Gay';
+function funcaoTeste(){
+    document.getElementById('meuBotao').innerHTML = 'Buscando...';
 }
