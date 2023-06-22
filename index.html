@@ -6,6 +6,7 @@
     <title>Meteora</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     
 </head>
 <body>
@@ -49,23 +50,25 @@
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
+
+
                 </div>
 
 
         </section>
-    </main>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-       const swiper = new Swiper('.swiper', {
-           spaceBetween: 10,
-           slidesPerView: 3,
-           pagination: {
-               el: '.swiper-pagination',
-               type: 'bullets',
-           },
-       });
-   </script>
-<script src="script.js"></script>
+        </main>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+        </script>
+        <script src="script.js"></script>
 
 </body>
 

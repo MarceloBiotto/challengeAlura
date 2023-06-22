@@ -1,4 +1,5 @@
 @import url(styles/header.css);
+@import url(styles/carrossel.css);
 
 :root{
     --preto-principal: #000000;
