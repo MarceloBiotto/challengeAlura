@@ -1,6 +1,7 @@
 .cabeçalho{
    background-color: var(--preto-principal);
     padding-left: 1rem;
+    
    
    
 }
@@ -12,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
     
     
  
@@ -32,4 +34,25 @@
     font-size: 16px;
     align-items: center;
 
+}
+
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Icon\ Color.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 95%;
+    text-decoration: none;
+}
+
+.container__botao:checked ~ .lista-menu{
+    display: block;
 }
