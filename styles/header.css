@@ -1,6 +1,6 @@
 .cabeçalho{
    background-color: var(--preto-principal);
-  
+    padding-left: 1rem;
    
    
 }
@@ -21,3 +21,8 @@
     width: 125.7px;
     height: 18px;
 }
+.pesquisa{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}   

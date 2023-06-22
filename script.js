@@ -2,7 +2,7 @@ document.getElementById('meuBotao').addEventListener('click', funcaoTeste);
 
 
 function funcaoTeste(){
-    document.getElementById('meuBotao').innerHTML = 'Artur noob';
+    document.getElementById('meuBotao').innerHTML = 'Buscando...';
 }
 
 
