@@ -1,6 +1,6 @@
 .cabeçalho{
     background-color: var(--preto-principal);
-   
+   margin: 10px;
    
    
 }
@@ -13,6 +13,11 @@
     align-items: center;
     justify-content: space-between;
     
+    
  
    
+}
+.logo{
+    width: 125.7px;
+    height: 18px;
 }
