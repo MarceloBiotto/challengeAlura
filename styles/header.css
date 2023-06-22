@@ -1,11 +1,18 @@
 .cabeçalho{
     background-color: var(--preto-principal);
-    width: 375px;
-    height: 58px;
-    border-radius: 4px;
-
+   
+   
+   
 }
 .container{
     display: flex;
+    width: 375px;
+    height: 58px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    
+ 
+   
 }
