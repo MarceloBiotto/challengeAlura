@@ -30,6 +30,11 @@
     justify-content: center;
     padding: 1rem;
 }   
+.banner__pesquisa{
+    border: solid 1px var(--preto-principal);
+    width: 225.6px;
+    height: 37px;
+}
 .search{
     font-family: inter;
     font-weight:500;
@@ -60,6 +65,8 @@
     padding: 0;
     margin-top: 0.5rem;
 }
+
+
 
 .container__botao:checked ~ .lista-menu{
     display: block;
