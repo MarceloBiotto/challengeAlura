@@ -1,4 +1,10 @@
 
+.carrossel{
+    width: 375px;
+    height: 415px;
+    top: 144px;
+}
+
 .swiper-slide img {
     width: 100%;
 }
