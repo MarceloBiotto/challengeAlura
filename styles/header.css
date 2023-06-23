@@ -1,5 +1,6 @@
 .cabeçalho{
    background-color: var(--preto-principal);
+    height: 58px;
     padding-left: 1rem;
     position: relative;
     z-index: 9999;
@@ -9,7 +10,7 @@
 .container{
     display: flex;
     max-width: 375px;
-    height: 58px;
+    height: auto    ;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -46,6 +47,7 @@
     display: inline-block;
     z-index: 9999;
     position: relative;
+    padding: 1rem;
 }
 
 .lista-menu{

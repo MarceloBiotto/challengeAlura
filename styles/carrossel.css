@@ -5,8 +5,8 @@
 
 
 .swiper {
-    max-width: 375px; /* Ajuste o carrossel para a largura desejada */
-    margin: 0 auto; /* Centralize o carrossel horizontalmente */
+    max-width: 375px; 
+    margin: 0 auto; 
 }
 
 .swiper-wrapper {
