@@ -4,6 +4,7 @@
     padding-left: 1rem;
     position: relative;
     z-index: 9999;
+    
    
    
 }
@@ -65,6 +66,11 @@
     width: 100%;
     padding: 0;
    
+}
+.ista-menu__nav{
+
+    position: absolute;
+    top: 0;
 }
 
 
