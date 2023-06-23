@@ -8,7 +8,7 @@
 }
 .container{
     display: flex;
-    width: 375px;
+    max-width: 375px;
     height: 58px;
     border-radius: 4px;
     display: flex;
@@ -22,7 +22,7 @@
 }
 .logo{
     width: 125.7px;
-    height: 18px;
+    height: auto;
 }
 .pesquisa{
     align-items: center;
@@ -55,6 +55,8 @@
     left: 85%;
     width: 30vw;
     z-index: 9999;
+    padding: 0;
+    margin-top: 0.5rem;
 }
 
 .container__botao:checked ~ .lista-menu{

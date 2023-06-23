@@ -4,3 +4,19 @@
 }
 
 
+.swiper {
+    max-width: 375px; /* Ajuste o carrossel para a largura desejada */
+    margin: 0 auto; /* Centralize o carrossel horizontalmente */
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
