@@ -11,7 +11,7 @@
 .container{
     display: flex;
     max-width: 375px;
-    height: auto    ;
+    height: auto;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@
     padding: 0;
    
 }
-.ista-menu__nav{
+.lista-menu__nav{
 
     position: absolute;
     top: 0;
