@@ -1,7 +1,8 @@
 .cabeçalho{
    background-color: var(--preto-principal);
     padding-left: 1rem;
-    
+    position: relative;
+    z-index: 9999;
    
    
 }
@@ -43,6 +44,8 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    z-index: 9999;
+    position: relative;
 }
 
 .lista-menu{
@@ -51,6 +54,7 @@
     top: 100%;
     left: 85%;
     width: 30vw;
+    z-index: 9999;
 }
 
 .container__botao:checked ~ .lista-menu{
