@@ -49,10 +49,35 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 95%;
-    text-decoration: none;
+    left: 85%;
+    width: 30vw;
 }
 
 .container__botao:checked ~ .lista-menu{
     display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--cinza-principal);
+}
+
+.lista-menu__titulo{
+    color: var(--amarelo-principal);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.lista-menu__link{
+    color: var(--branco-principal);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+}
+.container__botao{
+    display: none;
 }
