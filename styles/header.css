@@ -20,11 +20,11 @@
     position: relative;
     z-index: 4;
    
-    
-    
- 
-   
 }
+.container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer{
+    background-image: url("../img/Fechar.svg");
+ }
+
 .logo{
     width: 125.7px;
     height: auto;
@@ -103,4 +103,33 @@
 }
 .container__botao{
     display: none;
+}
+
+
+.titulo__categoria{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: inter;
+    color: var(--preto-secundario);
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 34px;
+
+}
+
+.container__categoria-camisetas-bolsas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__categoria-calçados-calças{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__categoria-casacos-oculos{
+    display: flex;
+    justify-content: space-between;
 }
