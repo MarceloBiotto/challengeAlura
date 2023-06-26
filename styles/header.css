@@ -137,3 +137,28 @@
     padding-bottom: 5px;
     text-decoration: none;
 }
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .container{
+        display: flex;
+        max-width: 1024px;
+        height: auto;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 4;
+       
+    }
+
+
+    .lista-menu{
+        display: flex;
+    }
+
+}
