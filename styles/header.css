@@ -143,14 +143,16 @@
 @media screen and (min-width: 768px) {
 
     .container{
-        display: block;
+       display: block;
        max-width: 768px;
        height: auto;
+       
     }
 
     .cabeçalho{
         display: flex;
         justify-content: space-between;
+        
     }
 
     .container__meteora {
@@ -158,17 +160,24 @@
         height: 24px;
         justify-content: center;
         align-items: center;
+        display: inline-block;
 
        
+    }
+    .container__tablet{
+        display: flex;
+        flex-direction: row;
     }
 
     .lista-menu{
         display: flex;
+        
     }
 
     .cabeçalho__menu-hamburguer {
 
-    display: none;
+        display: none;
+        
     }
 
     .lista-menu__titulo, .lista-menu__item{
@@ -178,6 +187,11 @@
       color: var(--branco-principal);
       background-color: var(--preto-principal);
       height: 58px;
-
+      padding: 3px;
+      padding-top: 2px;
+      gap: 5px;
+      display: flex;
+     
     }
+   
 }
