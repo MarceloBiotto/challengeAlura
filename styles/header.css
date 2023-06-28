@@ -68,8 +68,7 @@
     right: 0;
     width: 100%;
     padding: 0;
-    z-index: 8;
-    
+  
    
 }
 
@@ -141,24 +140,44 @@
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 
     .container{
-        display: flex;
-        max-width: 1024px;
-        height: auto;
-        border-radius: 4px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-        z-index: 4;
-       
+        display: block;
+       max-width: 768px;
+       height: auto;
     }
 
+    .cabeçalho{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container__meteora {
+        width: 99.56px;
+        height: 24px;
+        justify-content: center;
+        align-items: center;
+
+       
+    }
 
     .lista-menu{
         display: flex;
     }
 
+    .cabeçalho__menu-hamburguer {
+
+    display: none;
+    }
+
+    .lista-menu__titulo, .lista-menu__item{
+      font-family: var(--fonte-principal);
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--branco-principal);
+      background-color: var(--preto-principal);
+      height: 58px;
+
+    }
 }
