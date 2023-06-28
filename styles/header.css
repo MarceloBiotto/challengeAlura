@@ -99,6 +99,8 @@
     font-weight: 400;
     line-height: 23px;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 .container__botao{
     display: none;
@@ -113,6 +115,7 @@
     justify-content: center;
     width: 295px;
     height: 34px;
+   padding: 24px 39.5px 24px 40.5px;
 
 }
 
@@ -125,6 +128,8 @@
     align-items: center;
     background-color: var(--preto-principal);
     color: var(--branco-principal);
+    width: 146px;
+    height: 35px;
     padding: 8px 16px 8px 16px;
 }
 .container__categoria-camisetas-bolsas{
@@ -132,6 +137,8 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    gap: 30px;
+    padding-bottom: 16px;
 }
 
 .container__categoria-calçados-calças{
@@ -139,6 +146,8 @@
     justify-content: space-between;
     padding-bottom: 5px;
     text-decoration: none;
+    gap: 30px;
+    padding-bottom: 16px;
 }
 
 .container__categoria-casacos-oculos{
@@ -146,6 +155,8 @@
     justify-content: space-between;
     padding-bottom: 5px;
     text-decoration: none;
+    gap: 30px;
+    padding-bottom: 16px;
 }
 
 
@@ -210,4 +221,6 @@
         max-width: 768px;
         text-align: center;
     }
+
+   
 }
