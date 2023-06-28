@@ -116,6 +116,17 @@
 
 }
 
+
+.lista-categoria__link{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    background-color: var(--preto-principal);
+    color: var(--branco-principal);
+    padding: 8px 16px 8px 16px;
+}
 .container__categoria-camisetas-bolsas{
     display: flex;
     justify-content: space-between;
