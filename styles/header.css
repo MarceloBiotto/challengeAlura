@@ -193,5 +193,10 @@
       display: flex;
      
     }
-   
+    .lista__categoria{
+        display: flex;
+        flex-wrap:wrap;
+        max-width: 768px;
+        text-align: center;
+    }
 }
