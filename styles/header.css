@@ -2,8 +2,7 @@
    background-color: var(--preto-principal);
     height: 58px;
     padding-left: 1rem;
-    position: relative;
-    z-index: 2;
+    position: relative; 
     width: 375px;
     
    
@@ -68,7 +67,7 @@
     right: 0;
     width: 100%;
     padding: 0;
-  
+    
    
 }
 
@@ -174,6 +173,8 @@
     .cabeçalho{
         display: flex;
         justify-content: space-between;
+
+    
         
     }
 
@@ -182,13 +183,14 @@
         height: 24px;
         justify-content: center;
         align-items: center;
-        display: inline-block;
+     
 
        
     }
     .container__tablet{
         display: flex;
         flex-direction: row;
+
     }
 
     .lista-menu{
@@ -198,7 +200,9 @@
 
     .cabeçalho__menu-hamburguer {
 
-        display: none;
+        display: block;
+        justify-content: center;
+
         
     }
 
