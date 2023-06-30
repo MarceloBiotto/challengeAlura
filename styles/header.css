@@ -171,8 +171,11 @@
     }
 
     .cabeçalho{
-        display: flex;
+        display:block;
         justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 768px;
 
     
         
@@ -200,7 +203,14 @@
 
     .lista-menu{
         display: flex;
+        align-items: center;
+        text-align: center;
         
+        
+    }
+    .lista-menu__link{
+        font-size: 13px;
+        color: var(--branco-principal);
     }
     .lista-categoria__link{
         font-size: 13px;
@@ -209,7 +219,11 @@
         align-items: center;
         text-align: center;
     }
-
+.pesquisa{
+    z-index: 9999;
+    align-items: center;
+    text-align: center;
+}
     .cabeçalho__menu-hamburguer {
 
         display: none;
@@ -217,8 +231,17 @@
 
         
     }
-
-    .lista-menu__titulo, .lista-menu__item{
+    .lista-menu__titulo{
+        font-family: var(--fonte-principal);
+        color: var(--branco-principal);
+        font-size: 13px;
+        font-weight: 400;
+        background-color: var(--preto-principal);
+    }
+    .lista-menu__item{
+      display: flex;
+      align-items: center;
+      text-align: center;
       font-family: var(--fonte-principal);
       font-size: 13px;
       font-weight: 400;
@@ -228,7 +251,7 @@
       padding: 3px;
       padding-top: 2px;
       gap: 5px;
-      display: flex;
+     
      
     }
     .lista__categoria{
