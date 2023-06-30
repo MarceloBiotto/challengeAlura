@@ -177,6 +177,11 @@
     
         
     }
+    .logo{
+        width: 99.56px;
+        height: 24px;
+        
+    }
 
     .container__meteora {
         width: 99.56px;
@@ -197,10 +202,17 @@
         display: flex;
         
     }
+    .lista-categoria__link{
+        font-size: 13px;
+        font-weight: 400;
+        padding-top: 18px;
+        align-items: center;
+        text-align: center;
+    }
 
     .cabeçalho__menu-hamburguer {
 
-        display: block;
+        display: none;
         justify-content: center;
 
         
